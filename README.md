@@ -10,4 +10,9 @@ Create symlinks:
     <Windows>
     mklink /H .\vimrc ..\_vimrc
 
+Update Plugins:
+
+    cd ~/.vim
+    git submodule init
+    git submodule update
 
