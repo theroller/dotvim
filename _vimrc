@@ -1,3 +1,12 @@
+
+" Pathogen
+" ------------------------------------------------------------------------------
+filetype off
+execute pathogen#infect()
+call pathogen#helptags()
+" ------------------------------------------------------------------------------
+
+
 colorscheme darkblue
 syntax on
 
@@ -23,6 +32,7 @@ set cindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set ruler
 
 set hlsearch
 noremap <silent> <C-H> :set hlsearch!<CR>
