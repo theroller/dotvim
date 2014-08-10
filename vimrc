@@ -11,6 +11,9 @@ call pathogen#helptags()
 " ------------------------------------------------------------------------------
 
 
+" Automatic reloading of .vimrc
+autocmd! bufwritepost vimrc source %
+
 colorscheme darkblue
 syntax on
 
