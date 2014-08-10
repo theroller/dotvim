@@ -1,3 +1,7 @@
+" Author: James Roller
+" Date: 10-AUG-2014
+" Description: Personal dotvimrc file
+
 
 " Pathogen
 " ------------------------------------------------------------------------------
